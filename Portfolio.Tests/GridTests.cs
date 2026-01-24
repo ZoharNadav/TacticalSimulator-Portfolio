@@ -12,7 +12,7 @@ public class GridTests
     public void Setup()
     {
         grid = new Grid(8, 8);
-        unit = new Unit();
+        unit = new Unit(20, 5, 2, 1, 3);
         position = new Position(1, 1);
     }
 
