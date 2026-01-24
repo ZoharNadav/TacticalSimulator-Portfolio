@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Portfolio.core
 {
-    internal class Unit
+    public class Unit
     {
     }
 }

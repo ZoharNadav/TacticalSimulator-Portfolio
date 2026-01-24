@@ -10,5 +10,5 @@ using System.Xml;
 
 namespace Portfolio.core
 {
-    internal record Position(int X, int Y);
+    public record Position(int X, int Y);
 }

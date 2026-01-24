@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Portfolio.core
 {
-    internal class Grid
+    public class Grid
     {
         private readonly int width=0, height;
         private Dictionary<Position, Unit> field;
@@ -42,9 +42,6 @@ namespace Portfolio.core
             else
                 return false;
         }
-
-
-        /////////day 2:
 
         public bool ClearPosition(Position position)
         {
@@ -94,9 +91,5 @@ namespace Portfolio.core
             else
                 throw new KeyNotFoundException($"no unit found at position {position}.");
         }
-
-
-
-
     }
 }
